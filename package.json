@@ -1,0 +1,19 @@
+{
+  "name": "angular-easy-modal",
+  "version": "0.0.0",
+  "description": "easy angularjs modal",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Weaver",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "~3.8.6"
+  },
+  "devDependencies": {
+    "gulp-karma": "0.0.4",
+    "karma-jasmine": "~0.1.5",
+    "karma-chrome-launcher": "~0.1.4",
+    "karma-ng-html2js-preprocessor": "~0.1.0"
+  }
+}
