@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="simpleModal.app" id="top">
+<html lang="en" ng-app="dweave.modal.app" id="top">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../../style/dweave-modal.css">
     <title>Simple Angular Modal</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.7/fastclick.min.js"></script>
 </head>
-<body class="ng-cloak" ng-controller="MainCtrl">
-    touch src
+<body class="ng-cloak" ng-controller="DemoCtrl">
+    <button ng-click="openModal()">Open Modal</button>
+	
+    <script src="../test-lib/angular/angular.js"></script>
+    <script src="../../src/modal.js"></script>
+    <script src="assets/app.js"></script>
 </body>
 </html>

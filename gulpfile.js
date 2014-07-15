@@ -2,11 +2,13 @@ var gulp = require('gulp'),
     karma = require('gulp-karma'),
     connect = require('gulp-connect');
 
+
 gulp.task('server', function(){
   connect.server({
-    root: ['misc/demo']
+    root: ['.', 'misc/test-lib', 'misc/demo', 'misc/demo/assets']
   });
 });
+
 
 gulp.task('test', function() {
   // Be sure to return the stream
@@ -22,5 +24,6 @@ gulp.task('test', function() {
       throw err;
     });
 });
+
 
 gulp.task('default', ['test']);

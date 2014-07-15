@@ -18,9 +18,9 @@ module.exports = function(config) {
       'misc/test-lib/jquery/dist/jquery.js',
       'misc/test-lib/angular/angular.js',
       'misc/test-lib/angular-mocks/angular-mocks.js',
+      'src/template/*.html',
       'src/*.js',
-      'src/spec/*spec.js',
-      'src/template/*.html'
+      'src/spec/*spec.js'
     ],
 
     ngHtml2JsPreprocessor: {
